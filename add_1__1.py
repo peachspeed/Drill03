@@ -9,15 +9,17 @@ grass.draw_now(400, 30)
 character.draw_now(400, 90)
 
 def run_rectangle():
+    print('RECTANGLE')
     pass
 
 def run_circle():
+    print('CIRCLE')
     pass
 
 
 while True:
-    run_rectangle()
     run_circle()
+    run_rectangle()
 
 close_canvas()
 
